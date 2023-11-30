@@ -1,0 +1,104 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.laptop {
+    width: 400px;
+}
+
+@media(max-width: 400px) {
+    .laptop {
+        width: 300px;
+    }
+
+}
+
+
+.text-body-emphasis {
+    color: white !important;
+}
+
+.navbar-brand {
+    font-weight: Light;
+    color: #3f3f3f !important;
+}
+
+
+.laptop-section {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    margin-bottom: 30px;
+    height: 200px;
+    border: solid white 4px;
+    box-shadow: 2px 2px darkgrey;
+    border-radius: 50%;
+}
+
+.about-profile {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.about-profile-image {
+    width: 500px;
+}
+
+#profile-section {
+    padding-top: 100px;
+    padding-bottom: 0;
+    margin-bottom: 100px;
+}
+
+#profile-section>div {
+    margin: auto;
+    text-align: center;
+}
+
+.about-description>h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-description p {
+    margin-bottom: 100px;
+    font-size: 18px;
+}
+
+.about-skills>h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+
+.text-body-emphasis {
+    color: #3f3f3f !important;
+}

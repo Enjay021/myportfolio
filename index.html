@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+
+</head>
+
+<body>
+    <!--Hero Section -->
+    <section id="hero-section" class="gradient-background home">
+        <div class="container p-2">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">my<span style="font-weight: 500;">Portfolio</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-list"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#profile-section">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#gallery-section">Gallery</a>
+                            </li>
+
+                        </ul>
+
+                        <a class="btn btn-warning" href="mailto:enjayantonio@gmail.com">Contact me</a>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+        <div id="hero" class="containter py-5">
+
+            <div class="px-5 text-center">
+                <h1 class="display-5 fw-bold text-body-emphasis">I'm Neljayson
+                    Antonio</h1>
+                <div class="col-lg-6 mx-auto">
+                    <h2 class="lead mb-5 aos-init">a programmer</h2>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <a href="./assets/images/Neljayson Antonio.pdf" type="button"
+                            class="btn btn-outline-dark btn-lg px-4 gap-3" download="Neljayson-antonio-CV"><svg
+                                xmlns="http://www.w3.org/2000/svg" height="25" fill="currentColor"
+                                class="bi bi-cloud-arrow-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M7.646 10.854a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 9.293V5.5a.5.5 0 0 0-1 0v3.793L6.354 8.146a.5.5 0 1 0-.708.708l2 2z" />
+                                <path
+                                    d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                            </svg> Download CV</a>
+                    </div>
+                </div>
+                <div class="laptop-section">
+                    <img class="laptop" src="./assets/images/laptop.png" alt="laptop">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Profile Section -->
+    <section id="profile-section" class="profile-section reveal">
+        <div class="container">
+            <div class="about-profile">
+                <div class="about-profile-image">
+                    <img class="profile col-" src="./assets/images/profile.jpg" alt="profile">
+                    <h2>Hello.</h2>
+                    <p>I am an IT Professional with skills in Web devoloping
+                        and Graphic Designing. I love music specially christian songs. I love to play
+                        guitar, bass guitar and piano.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills Section -->
+    <section id="skills-section" draggable="true">
+        <div class="container pb-5">
+            <h2 class="fw-light">My skils</h2>
+            <hr>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor"
+                            class="bi bi-code-square" viewBox="0 0 16 16">
+                            <path
+                                d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                            <path
+                                d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z" />
+                        </svg>
+                    </div>
+                    <h2 class="fs-2 text-body-emphasis">Web Programming</h2>
+                    <p>I started learning to code when I was 21 years old because I am fascinated on how website works
+                        and wanted to build one. Over time, I have gained a wealth of experience designing and
+                        developing web applications.</p>
+                    <a href="#gallery-section" class="icon-link">
+                        See projects...
+                        <svg class="bi">
+                            <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-palette"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
+                            <path
+                                d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8m-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7" />
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Graphic Design</h3>
+                    <p>I started learning about graphic designing with my co-worker in a small business computer shop.
+                        I was amazed on how that person makes a poster design with typography and combining with photo
+                        abstract
+                        materials. By then, he taught me about graphic designing. Later on, I was able to make my own
+                        design.
+                    </p>
+                    <a href="#gallery-section" class="icon-link">
+                        See projects...
+                        <svg class="bi">
+                            <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-tools"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z" />
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Computer Techician</h3>
+                    <p>When I was a kid, I love dismantling things and fixing it. Then I said to my self, "When I grow
+                        up, I wanna be
+                        a Computer Techician. Fortunately, during my college days I worked as a Computer Technician and
+                        was able to gained technical skills such as troubleshooting computer hardware, network
+                        troubleshooting
+                        and Installing computer applications.
+                    </p>
+                    <a href="#gallery-section" class="icon-link">
+                        See projects...
+                        <svg class="bi">
+                            <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Gallery Section -->
+    <section id="gallery-section" class="gallery-section pt-5">
+        <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+                <section class="py-5 text-center container" draggable="true">
+                    <div class="row pt-lg-2">
+                        <div class="col-lg-6 col-md-8 mx-auto">
+                            <h1 class="fw-light">Gallery</h1>
+                            <p class="lead text-body-secondary">Projects made by Me</p>
+
+                        </div>
+                    </div>
+                </section>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" height="400" role="img"
+                                src="./assets/project/img/old-portfolio.jpg" alt="Mobile app prototyping"
+                                focusable="false">
+
+                            <div class="card-body">
+                                <h5>Old Portfolio</h3>
+                                    <p class="card-text">This is my old-portfolio I made. A simple portfolio using HTML,
+                                        CSS, Botstrap and Javascript</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" href="https://enjay021.github.io/portfolio.github.io/"
+                                                class="btn btn-sm btn-outline-secondary">View
+                                                Project</a>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" height="400" role="img"
+                                src="./assets/project/img/project-1.jpg" alt="Mobile app prototyping" focusable="false">
+
+                            <div class="card-body">
+                                <h5>Figma</h3>
+                                    <p class="card-text">This is a food ordering mobile application prototype with the
+                                        use
+                                        Canva.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" class="btn btn-sm btn-outline-secondary">View
+                                                Project</a>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" height="400" role="img"
+                                src="./assets/project/img/project-2.jpg" alt="Mobile app prototyping" focusable="false">
+
+                            <div class="card-body">
+                                <h5>Figma | Adobe Photoshop</h3>
+                                    <p class="card-text">This is website prototype I made just to practice UI Design
+                                        tool.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" class="btn btn-sm btn-outline-secondary">View
+                                                Project</a>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" height="400" role="img"
+                                src="./assets/project/img/project-3.jpg" alt="Mobile app prototyping" focusable="false">
+                            <div class="card-body">
+                                <h5>Adobe Photoshop</h3>
+                                    <p class="card-text">I made this random Travel Poster with the use of Adobe
+                                        Photoshop.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" class="btn btn-sm btn-outline-secondary">View
+                                                Project</a>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" height="400" role="img"
+                                src="./assets/project/img/project-4.jpg" alt="Mobile app prototyping" focusable="false">
+                            <div class="card-body">
+                                <h5>Adobe Photoshop</h3>
+                                    <p class="card-text">I made and use this poster to apply for a Graphic Design
+                                        profile-section
+                                        in Decathlon.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" class="btn btn-sm btn-outline-secondary">View
+                                                Project</a>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" height="400" role="img"
+                                src="./assets/project/img/project-5.jpg" alt="Mobile app prototyping" focusable="false">
+                            <div class="card-body">
+                                <h5>Adobe Photoshop</h3>
+                                    <p class="card-text">This is one of my project with the company I worked with
+                                        before.
+                                        A hiring poster
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" class="btn btn-sm btn-outline-secondary">View
+                                                Project</a>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" height="400" role="img"
+                                src="./assets/project/img/project-6.jpg" alt="Mobile app prototyping" focusable="false">
+                            <div class="card-body">
+                                <h5>Adobe Photoshop</h3>
+                                    <p class="card-text">Project that I made for my sister's small business milktea
+                                        cafe.
+                                        Signage design.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" class="btn btn-sm btn-outline-secondary">View
+                                                Project</a>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" height="400" role="img"
+                                src="./assets/project/img/project-7.jpg" alt="Mobile app prototyping" focusable="false">
+                            <div class="card-body">
+                                <h5>Adobe Illustrator | Adobe Photoshop</h3>
+                                    <p class="card-text">Logo design for my sister's small business milktea cafe.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" class="btn btn-sm btn-outline-secondary">View
+                                                Project</a>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" height="400" role="img"
+                                src="./assets/project/img/project-8.jpg" alt="Mobile app prototyping" focusable="false">
+                            <div class="card-body">
+                                <h5>Adobe Photoshop</h3>
+                                    <p class="card-text">This I made for my friend's niece. A birthday invitation card.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" class="btn btn-sm btn-outline-secondary">View
+                                                Project</a>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" height="400" role="img"
+                                src="./assets/project/img/project-9.jpg" alt="Mobile app prototyping" focusable="false">
+                            <div class="card-body">
+                                <h5>Adobe Illustrator</h3>
+                                    <p class="card-text">Project I made for my sister's thesis project. Typography
+                                        design.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" class="btn btn-sm btn-outline-secondary">View
+                                                Project</a>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" height="400" role="img"
+                                src="./assets/project/img/project-10.jpg" alt="Mobile app prototyping"
+                                focusable="false">
+                            <div class="card-body">
+                                <h5>Adobe Photoshop</h5>
+                                <p class="card-text">Making T-shirt design is also my hobby.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a type="button" class="btn btn-sm btn-outline-secondary">View
+                                            Project</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" height="400" role="img"
+                                src="./assets/project/img/project-11.jpg" alt="Mobile app prototyping"
+                                focusable="false">
+                            <div class="card-body">
+                                <h5>Adobe Photoshop</h3>
+                                    <p class="card-text">When you need a professional creative design, just get in
+                                        touch.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" class="btn btn-sm btn-outline-secondary">View
+                                                Project</a>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" height="400" role="img"
+                                src="./assets/project/img/project-12.jpg" alt="Mobile app prototyping"
+                                focusable="false">
+                            <div class="card-body">
+                                <h5>Adobe Photoshop</h3>
+                                    <p class="card-text">Poster Design "FEARLESS"</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" class="btn btn-sm btn-outline-secondary">View
+                                                Project</a>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" height="400" role="img"
+                                src="./assets/project/img/project-13.jpg" alt="Mobile app prototyping"
+                                focusable="false">
+                            <div class="card-body">
+                                <h5>Adobe Illustrator</h3>
+                                    <p class="card-text">I made this 3D design as I remember that I should always trust
+                                        the
+                                        Lord.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" class="btn btn-sm btn-outline-secondary">View
+                                                Project</a>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <video class="bd-placeholder-img card-img-top" width="320" height="240" autoplay muted>
+                                <source src="./assets/project/video/vid-1.mp4" type="video/mp4">
+                            </video>
+                            <div class="card-body">
+                                <h5>Canva</h3>
+                                    <p class="card-text">An e-invitation I made for my friend's daugther for her 1st
+                                        birthday.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" class="btn btn-sm btn-outline-secondary">View
+                                                Project</a>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <video class="bd-placeholder-img card-img-top" width="320" height="240" autoplay muted>
+                                <source src="./assets/project/video/vid-2.mp4" type="video/mp4">
+                            </video>
+                            <div class="card-body">
+                                <h5>Figma | Adobe Photoshop</h3>
+                                    <p class="card-text">A video presentation for a website prototype with the use of
+                                        Figma and Adobe Photoshop then rendered it on www.video.io.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" class="btn btn-sm btn-outline-secondary">View
+                                                Project</a>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer Section -->
+    <section id="footer" class="gradient-background">
+        <div class="container">
+            <footer class="row row-cols row-cols-sm-2 row-cols-md-4 py-5">
+                <div class="col mb-3">
+                    <p class="text-body-secondary">© myPortfolio</p>
+                </div>
+
+                <div class="col mb-3">
+
+                </div>
+
+                <div class="col mb-3" draggable="true">
+                    <h5>Page Link</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#profile-section"
+                                class="nav-link p-0 text-body-secondary">About</a></li>
+                        <li class="nav-item mb-2"><a href="#gallery-section"
+                                class="nav-link p-0 text-body-secondary">Gallery</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col mb-3">
+                    <h5>Get in touch</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blk 245 Yishun
+                                Ave 9, #09-157 Singapore</a></li>
+                        <li class="nav-item mb-2"><a href="mailto:enjayantonio@gmail.com"
+                                class="nav-link p-0 text-body-secondary">
+                                enjayantonio@gmail.com</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">+65 85969718</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="https://twitter.com/EnJayAntonio" class="btn btn-dark"><svg
+                                    xmlns="http://www.w3.org/2000/svg" height="16" fill="currentColor"
+                                    class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+                                </svg></a>
+                            <a href="https://www.facebook.com/neljayson021/" class="btn btn-dark"><svg
+                                    xmlns="http://www.w3.org/2000/svg" height="16" fill="currentColor"
+                                    class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                </svg></a>
+                            <a href="https://www.instagram.com/neljayson/" class="btn btn-dark"><svg
+                                    xmlns="http://www.w3.org/2000/svg" height="16" fill="currentColor"
+                                    class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                </svg></a>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </footer>
+        </div>
+    </section>
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</html>
